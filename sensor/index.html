@@ -6,7 +6,6 @@
         <meta http-equiv="x-ua-compatible" compatible ="ie-edge">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <script src="https://unpkg.com/scrollreveal"></script>
         <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
@@ -14,41 +13,42 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-           <div class="container">
-                <a class="navbar-brand" href="#"><h2>MeDia</h2></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#desplegable" aria-controls="desplegableDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#header">Inicio<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sensor">Nuestro Sensor</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">FAQ</a>
-                        </li>
-                    </ul>
-                </div>
-           </div>
-        </nav>
+            
+                    <a class="navbar-brand" href="#"><h2>MeDia</h2></a>
+                    <div class="collapse navbar-collapse" id="desplegable">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#header">Inicio<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sensor">Nuestro Sensor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>    
         
         <header id="header">
-            <div class="container mt-5">
+            <div class="container mt-5 text-center">
                 <div class="row">
                     <div class="col-md-7">
                         <div class="header-content-left">
-                            <img src="Images/parche-removebg-preview.png" alt="Nuestro parche" style="width: 100%;">
+                            <img class="img-fluid" src="Images/parche-removebg-preview.png" alt="Nuestro parche" style="width: 100%;">
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <div class="header-content-right">
+                        <div>
                             <h1 class="letra">Precision y fiabilidad</h1>
                             <p class="mt-2 letra">Dispositivo calibrado y enlazado con nuestra aplicación <em>MeDiApp</em>, que arrojará resultados diarios. Esto permitirá al usuario un correcto seguimiento de su salud.</p>
                             <a href="#" class="btn btn-outline-secondary letra">Leer más</a>
@@ -64,18 +64,18 @@
             </div>
         </section>
         <section id="sensor">
-            <div class="container">
+            <div class="container text-center">
                 <div class="row mt-5">
                     <div class="col-md-7 mt-5">
                         <div class="sensor-left">
-                            <img src="Images/sensor2.png" alt="Funcionamiento del sensor" style="width: 50%;" class="mb-1">
+                            <img class="img-fluid mb-4" src="Images/sensor2.png" alt="Funcionamiento del sensor" style="width: 50%;" class="mb-1">
                         </div>
                     </div>
                     <div class="col-md-5 mt-3">
                         <div class="sensor-right">
                             <h2 class="letra">Tecnologia y simpleza</h2>
                             <p class="letra">Diseñamos el biosensor como un "sistema de dos electrodos" (un electrodo de trabajo y un contraelectrodo). Nuestro biosensor ultrafino emula a la piel y se ajusta completamente a esta, midiendo la glucosa transportada hacia afuera impulsada por los ETC.</p>
-                            <a href="#" class="btn btn-outline-secondary letra">Leer más</a>
+                            <a href="#" class="btn btn-outline-secondary letra mb-4">Leer más</a>
                         </div>
                     </div>
                 </div>
@@ -85,9 +85,9 @@
                     <p class="mb-3 mt-3 h2 letra tamaño"><em>"Nuestra estrategia apunta a un diálogo mutuo siendo pacientes y empresa al mismo tiempo, solamente mediante esta empatía lograremos diferenciarnos y ser la primera opción de ayuda para los que requieran nuestro servicio."</em></p>
                     <p class="h4 letra"><em>-  Equipo MeDia.</em></p>
                 </div>
-        </section>
+            </section>
         <section>
-            <div class="container letra">
+            <div class="container letra text-center">
                 <div class="row my-5 mt-5">
                     <div class="col-md-7">
                         <div class="comunidad-left">
@@ -104,7 +104,7 @@
         <footer id="contact">
             <div class="container letra">
                 <div class="row">
-                    <div class="col-md-7 mt-5">
+                    <div class="col-md-7 mt-2">
                         <form class="card formulario mt-4">
                             <div class="card-body mt-1 mb-4 formulario2">
                                 <div class="form-group">
@@ -125,7 +125,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-5 letra texto">
+                    <div class="col-md-5 letra texto text-center">
                         <h2>Estamos aqui para tus pedidos y sugerencias, siempre.</h2>
                     </div>
                 </div>
@@ -135,8 +135,6 @@
         <script src="js/jquery.min.js" charset="utf-8"></script>
         <script src="js/popper.min.js" charset="utf-8"></script>
         <script src="js/bootstrap.min.js" charset="utf-8"></script>
-        <script>
-            
-        </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
     </body>
 </html>
