@@ -26,7 +26,7 @@ header  {
     margin-top: 12%;
 }
 #contact  {
-    background-image: url(Images/fondo.png);
+    background-image: url(/static/Images/fondo.png);
     background-size: cover;
 }
 .texto  {
