@@ -1,0 +1,37 @@
+html  {
+    scroll-behavior: smooth;
+}
+body  {
+    font-family:'Kalam', cursive;
+}
+.titu  {
+    font-size: 24px;
+}
+.letra  {
+    font-family: 'Titillium Web', sans-serif;
+}
+.font {
+    font-size: 1.3rem;
+}
+.tamaño  {
+    font-size: 1.2em;
+}
+#testimonio  {
+    background-color:#E9FFFE;
+    padding: .5% 0 .5% 0;
+    text-align: center;
+    margin-top: 5%;
+}
+header  {
+    margin-top: 12%;
+}
+#contact  {
+    background-image: url(Images/fondo.png);
+    background-size: cover;
+}
+.texto  {
+    margin-top: 15%;
+}
+.formulario  {
+    height: 86%;
+}
