@@ -135,6 +135,6 @@ EMAIL_USE_TLS = True
 
 EMAIL_PORT = 25
 
-EMAIL_HOST_USER = 'tadeosoresi23@outlook.com'
+EMAIL_HOST_USER = ''
 
-EMAIL_HOST_PASSWORD = 'Asapteezy'
+EMAIL_HOST_PASSWORD = ''
